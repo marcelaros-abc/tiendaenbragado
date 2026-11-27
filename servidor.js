@@ -1,7 +1,7 @@
 // importar la conexión creada en el archivo conexion.js
 const conexion = require("./conexion");
 // aviso por mail (si falla, la consulta igual queda guardada)
-const { avisarConsulta } = require("./correo");
+const { avisarConsulta } = require("./public/correo");
 
 // crear un servidor
 const express = require("express");       // importa el módulo express
